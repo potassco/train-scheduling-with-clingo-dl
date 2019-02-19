@@ -1,8 +1,8 @@
 # Train scheduling with clingoDL: Benchmarks
 ## REQUIREMENTS
 
-- clingo-dl 1.0.0, avilable [here](https://github.com/potassco/)
-- clingo 5.3.0, avilable [here](https://github.com/potassco/)
+- clingo-dl 1.0.0, available [here](https://github.com/potassco/)
+- clingo 5.3.0, available [here](https://github.com/potassco/)
 - python >= 3.6
 
 ## CONTENT
