@@ -2,7 +2,7 @@
 
 next(T,V,D,D') :- potlate(T,V,D,_), potlate(T,E,D',_), D<D',
                   not potlate(T,E,D'',_) : potlate(T,E,D'',_), D''>D, D''<D'. 
-:- not late(T,E,T,_), late(T,E,T',_), next(T,E,T,T').
+:- not late(T,E,D,_), late(T,E,D',_), next(T,E,D,D').
 
 &diff{ 0-(T,V) } <= -D  :- late(T,V,D,W).
 &diff{ (T,V)-0 } <=  N  :- not late(T,V,D,W), potlate(T,V,D,W), 
