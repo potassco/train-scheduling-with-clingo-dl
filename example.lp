@@ -36,6 +36,6 @@ potlate(t1,4,6,1).           potlate(t2,4,9,1).
 potlate(t1,(5;6),7,1).       potlate(t2,(5;6),10,1).
 potlate(t1,(7;8),8,1).       potlate(t2,(7;8),11,1).
 potlate(t1,9,9,1).           potlate(t2,9,12,1).
-potlate(t1,(10;11;12),10,1). potlate(t2,(10;11;12),13).
+potlate(t1,(10;11;12),10,1). potlate(t2,(10;11;12),13,1).
 
 penalty((2,4),1).            penalty((9,11),1).
